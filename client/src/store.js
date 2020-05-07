@@ -34,7 +34,7 @@ export default new Vuex.Store({
     kolist: [],
     paths: {
       default_act_url_index: 0,
-      activator_urls: ['https://kgrid-activator.herokuapp.com','https://monkey-activator.kgrid.org']
+      activator_urls: ['https://activator.kgrid-china.net']
     },
     metaschema: {},
     // New Properties

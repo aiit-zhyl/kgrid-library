@@ -10,9 +10,9 @@
      if [[ $i == *:* ]]; then
        theReop=$(echo $i | cut -d':' -f 1)
        theTag=$(echo $i | cut -d':' -f 2)
-       url=(https://api.github.com/repos/kgrid-objects/$theReop/releases/tags/$theTag )
+       url=(https://api.github.com/repos/kgrid-objects/$theReop/releases/tags/$theTag?access_token=$GIT_TOKEN )
      else
-       url=(https://api.github.com/repos/kgrid-objects/$i/releases/latest  )
+       url=(https://api.github.com/repos/kgrid-objects/$i/releases/latest?access_token=$GIT_TOKEN  )
      fi
 
      assets=($(curl -s $url | jq -r ".assets[].browser_download_url"))

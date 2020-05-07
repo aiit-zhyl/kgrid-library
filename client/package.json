@@ -20,7 +20,7 @@
     "moment": "^2.24.0",
     "prismjs": "^1.19.0",
     "roboto-fontface": "*",
-    "snyk": "^1.316.1",
+    "snyk": "^1.294.0",
     "vue": "^2.6.11",
     "vue-filepond": "^5.1.1",
     "vue-prism-component": "^1.1.1",

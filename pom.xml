@@ -4,7 +4,7 @@
 
   <groupId>org.kgrid</groupId>
   <artifactId>kgrid-library-parent</artifactId>
-  <version>1.2.6-SNAPSHOT</version>
+  <version>1.2.5</version>
   <packaging>pom</packaging>
 
   <description>Knowledge Grid Library</description>
@@ -18,7 +18,7 @@
     <url>https://github.com/kgrid/kgrid-library</url>
     <connection>scm:git:https://github.com/kgrid/kgrid-library.git</connection>
     <developerConnection>scm:git:https://github.com/kgrid/kgrid-library.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>1.2.5</tag>
   </scm>
 
   <properties>
